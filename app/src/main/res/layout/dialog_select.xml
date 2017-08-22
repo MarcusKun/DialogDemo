@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!--选择对话框的布局包含单选和多选-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_hint_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_dialog_select_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tv_title_dialog_bg"
+        android:gravity="center"
+        android:paddingBottom="@dimen/hint_dialog_ll_pad"
+        android:paddingTop="@dimen/hint_dialog_ll_pad"
+        android:text="标题"
+        android:textColor="@color/hint_dialog_text"
+        android:textSize="@dimen/hint_dialog_content_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/hint_dialog_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/hint_dialog_ll_pad">
+
+        <ListView
+            android:id="@+id/lv_dialog_select_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:cacheColorHint="#00FFFFFF"
+            android:divider="@color/select_dialog_list_diver"
+            android:dividerHeight="1dp"
+            android:listSelector="@drawable/item_select_dialog_list"
+            android:scrollbars="none" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_dialog_select_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/hint_dialog_widget_spacing"
+                android:layout_weight="1"
+                android:background="@drawable/btn_hint_dialog_selector"
+                android:text="@string/btn_text_ok"
+                android:textColor="@color/hint_dialog_text"
+                android:textSize="@dimen/hint_dialog_btn_size" />
+
+            <Button
+                android:id="@+id/btn_dialog_select_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/hint_dialog_widget_spacing"
+                android:layout_weight="1"
+                android:background="@drawable/btn_hint_dialog_selector"
+                android:text="@string/btn_text_cancel"
+                android:textColor="@color/hint_dialog_text"
+                android:textSize="@dimen/hint_dialog_btn_size" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

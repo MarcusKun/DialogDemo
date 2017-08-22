@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--HintDialg-->
+    <color name="hint_dialog_bg">#E64B3B</color>
+    <color name="hint_dialog_title_bg">#C84234</color>
+    <color name="hint_dialog_line">#BE3E31</color>
+    <color name="hint_dialog_text">#FEFDFD</color>
+    <color name="hint_dialog_btn_n">#C0392B</color>
+    <color name="hint_dialog_btn_p">#AA3427</color>
+
+    <!--SelectDialog-->
+    <color name="select_dialog_list_diver">#FEFDFD</color>
+    <color name="select_dialog_list_n">#E64B3B</color>
+    <color name="select_dialog_list_p">#D42E1C</color>
+</resources>

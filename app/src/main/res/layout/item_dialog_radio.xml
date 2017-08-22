@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="@dimen/select_dialog_list_padding"
+    android:paddingTop="@dimen/select_dialog_list_padding">
+
+    <TextView
+        android:id="@+id/tv_item_dialog_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="标题"
+        android:textColor="@color/hint_dialog_text"
+        android:textSize="@dimen/hint_dialog_content_size" />
+
+    <RadioButton
+        android:id="@+id/rb_item_dialog_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/rb_item_dialog_selector"
+        android:button="@null"
+        android:clickable="false" />
+
+</RelativeLayout>

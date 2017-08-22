@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DialogDemo</string>
+    <string name="btn_loading_dialog">加载对话框</string>
+    <string name="btn_hint_dialog">提示对话框</string>
+    <string name="btn_radio_dialog">单选对话框</string>
+    <string name="btn_check_dialog">多选对话框</string>
+
+    <string name="progress_text">正在加载...</string>
+
+    <string name="btn_text_ok">确定</string>
+    <string name="btn_text_cancel">取消</string>
+</resources>

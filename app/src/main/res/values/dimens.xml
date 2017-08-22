@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_text_size">12sp</dimen>
+    <dimen name="progress_size">48dp</dimen>
+
+    <!--HintDialog-->
+    <dimen name="hint_dialog_radius">5dp</dimen> <!--Dialog和Button的Radius-->
+    <dimen name="hint_dialog_ll_pad">10dp</dimen> <!--整个Dialog的内边距-->
+    <dimen name="hint_dialog_title_size">22sp</dimen> <!--标题字体大小-->
+    <dimen name="hint_dialog_content_size">18sp</dimen> <!--正文字体大小-->
+    <dimen name="hint_dialog_btn_size">16sp</dimen> <!--按钮字体大小-->
+    <dimen name="hint_dialog_widget_spacing">15dp</dimen> <!--控件之间的间距-->
+
+    <!--SelectDialog-->
+    <dimen name="select_dialog_list_padding">5dp</dimen> <!--ListView每个Item上下边距-->
+</resources>

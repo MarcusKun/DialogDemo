@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:topLeftRadius="@dimen/hint_dialog_radius"
+        android:topRightRadius="@dimen/hint_dialog_radius" />
+    <solid android:color="@color/hint_dialog_title_bg" />
+</shape>
